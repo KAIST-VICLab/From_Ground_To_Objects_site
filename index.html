@@ -6,34 +6,7 @@
         content="Dynamic Deblurring Neural Radiance Fields for Blurry Monocular Video.">
   <meta name="keywords" content="DyBluRF, D-NeRF, NeRF, Deblur">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DyBluRF: Dynamic Deblurring Neural Radiance Fields for Blurry Monocular Video</title>
-  <style>
-    @keyframes shake {
-      0% {transform: translateX(0);}
-      10%, 90% {transform: translateX(-5px);}
-      20%, 80% {transform: translateX(5px);}
-      30%, 50%, 70% {transform: translateX(-5px);}
-      40%, 60% {transform: translateX(5px);}
-      100% {transform: translateX(0);}
-    }
-    
-    #blur {
-      /* font-size: 60px; */
-      color: rgb(52,144,197);
-      filter: blur(3x);
-      -webkit-filter: blur(2.5px);
-      animation: shake 1s infinite;
-      display: inline-block;; 
-      clear: none;
-    }
-    #shake {
-      /* font-size: 60px; */
-      animation: shake 1s infinite;
-      display: inline-block;; 
-      clear: none;
-    }
-  </style>
-
+  <title>From-Ground-To-Objects: Coarse-to-Fine Self-supervised Monocular Depth Estimation of Dynamic Objects with Ground Contact Prior</title>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HR3PWVQLH2"></script>
   <script>
@@ -74,88 +47,41 @@
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://www.viclab.kaist.ac.kr">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          Related Works
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hangg7.com/dycheck/">
-            Dycheck (Neurips 2022)
-          </a>
-          <a class="navbar-item" href="https://robust-dynrf.github.io/">
-            RoDynRF (CVPR 2023)
-          </a>
-          <a class="navbar-item" href="https://caoang327.github.io/HexPlane/">
-            HexPlane (CVPR 2023)
-          </a>
-          <a class="navbar-item" href="https://wangpeng000.github.io/BAD-NeRF/">
-            BAD-NeRF (CVPR 2023)
-          </a>
-          <a class="navbar-item" href="https://dogyoonlee.github.io/dpnerf/">
-            DP-NeRF (CVPR 2023)
-          </a>
-          <a class="navbar-item" href="https://jaminfong.cn/tineuvox/">
-            TiNeuVox (ACM SIGGRAPH Asia 2022)
-          </a>
-          <a class="navbar-item" href="https://hypernerf.github.io/">
-            HyperNeRF (ACM Trans. Graph. 2021)
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io/">
-            Nerfies (ICCV 2021)
-          </a>
-          <a class="navbar-item" href="https://www.cs.cornell.edu/~zl548/NSFF/">
-            NSFF (CVPR 2021)
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
 </nav>
 
 
-<section class="hero">
+<section class="hero ">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <div class="title is-1 publication-title"><h1 id="blur">DyBluRF: </h1> <img id="shake" src="./static/images/icon.png" width="42", height="42"> <h1 style="display: inline; clear:none;">Dynamic Deblurring Neural Radiance Fields for Blurry Monocular Video</h1></div>
+          <div class="title is-1 publication-title"><h1 id="blur">From-Ground-To-Objects: </h1> <h1 style="display: inline; clear:none;">Coarse-to-Fine Self-supervised Monocular Depth Estimation of Dynamic Objects with Ground Contact Prior</h1></div>
           <div class="is-size-5 publication-authors">
             <span class="author-block">This page is under reconstruction</span>
             <!-- <span class="author-block"><sup>†</sup>Corresponding author</span> -->
           </div>          
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://www.viclab.kaist.ac.kr/">Minh-Quan Viet Bui</a><sup>* 1</sup>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span class="author-block">
-              <a href="https://www.viclab.kaist.ac.kr/">Jongmin Park</a><sup>* 1</sup>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span class="author-block">
-              <a href="https://sites.google.com/view/ozbro/">Jihyong Oh</a><sup>* 2</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.viclab.kaist.ac.kr/">Jaeho Moon</a>&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span class="author-block">
-              <a href="https://www.viclab.kaist.ac.kr/">Munchurl Kim</a><sup>† 1</sup>
+              <a href="https://sites.google.com/view/ozbro/">Juan Luis Gonzalez Bello</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="https://www.viclab.kaist.ac.kr/">Byeongjun Kwon</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="author-block">
+              <a href="https://www.viclab.kaist.ac.kr/">Munchurl Kim</a><sup>†</sup>
             </span>
           </div>
 
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>*</sup>Co-first authors (equal contribution)</span>
-            <!-- <span class="author-block"><sup>†</sup>Corresponding author</span> -->
-          </div>
           <div class="is-size-5 publication-authors">
             <span class="author-block"> <sup>†</sup>Corresponding author</span>
             <!-- <span class="author-block"><sup>†</sup>Corresponding author</span> -->
           </div>
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>KAIST, South Korea</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="author-block"><sup>2</sup>Chung-Ang University, South Korea</span>
+            <span class="author-block">KAIST</span>
+            <!-- <span class="author-block"><sup>†</sup>Corresponding author</span> -->
           </div>
 
           <div class="column has-text-centered">
@@ -179,19 +105,9 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://github.com/KAIST-VICLab/From_Ground_To_Objects"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -199,17 +115,6 @@
                   <span>Code (To be released)</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
-            </div>
-
           </div>
         </div>
       </div>
@@ -217,32 +122,32 @@
   </div>
 </section>
 
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-paper-windmill">
-          <video poster="" id="paper-windmill" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/DyBluRF_1_paper-windmill.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-block">
-          <video poster="" id="block" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/DyBluRF_2_block.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-wheel">
-          <video poster="" id="wheel" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/DyBluRF_3_wheel.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<!--<section class="hero is-light is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--        <div class="item item-paper-windmill">-->
+<!--          <video poster="" id="paper-windmill" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/DyBluRF_1_paper-windmill.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-block">-->
+<!--          <video poster="" id="block" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/DyBluRF_2_block.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-wheel">-->
+<!--          <video poster="" id="wheel" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/DyBluRF_3_wheel.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
 <script>
 bulmaCarousel.attach('#results-carousel', {
   slidesToShow: 2,
@@ -251,164 +156,75 @@ bulmaCarousel.attach('#results-carousel', {
 });
 </script>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Video view synthesis, allowing for the creation of visually appealing frames from arbitrary viewpoints and times, offers immersive viewing experiences. 
-            Neural radiance fields, particularly NeRF, initially developed for static scenes, have spurred the creation of various methods for video view synthesis. 
-          </p>
-          <p>
-            However, the challenge for video view synthesis arises from motion blur, a consequence of object or camera movement during exposure, which hinders the precise synthesis of sharp spatio-temporal views. 
-            In response, we propose a novel dynamic deblurring NeRF framework for blurry monocular video, called DyBluRF, consisting of an Interleave Ray Refinement (IRR) stage and a Motion Decomposition-based Deblurring (MDD) stage. 
-          </p>
-          Our DyBluRF is the first that addresses and handles the novel view synthesis for blurry monocular video. 
-            The IRR stage jointly reconstructs dynamic 3D scenes and refines the inaccurate camera pose information to combat imprecise pose information extracted from the given blurry frames. 
-            The MDD stage is a novel incremental latent sharp-rays prediction (ILSP) approach for the blurry monocular video frames by decomposing the latent sharp rays into global camera motion and local object motion components. 
-            Extensive experimental results demonstrate that our DyBluRF outperforms qualitatively and quantitatively the very recent state-of-the-art methods.
-          <p>
-
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src=""
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
-</section>
-
-<!-- <section class="section">
-  <div class="container is-widescreen">
-    <h2 class="title is-3">Framework Architecture</h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full">
-        <image src="./static/images/DDNeRF_Architecture_v21.png" class="img-responsive" alt="DDNeRF_Architecture_v21"><br>
-        <div class="content has-text-justified">
-          <p>
-            <b>Overview of our DyBluRF framework.</b> To effectively optimize the sharp radiance field with the imprecise camera poses extracted from blurry video frames, 
-            we design our DyBluRF consisting of two main procedures of (a) <i>Interleave Ray Refinement Stage</i> and (b) <i>Motion Decomposition-based Deblurring Stage</i>.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<section class="section">
-  <div class="container is-widescreen">
-    <h2 class="title is-3">SOTA Comparison: Dynamic Deblurring Novel View Synthesis Evaluation on Blurry iPhone Dataset</h2>
-
-    <div class="content has-text-justified">
-      <p>
-        To validate the quality of deblurring monocular video novel view synthesis of our DyBluRF, 
-        we compare it with the existing dynamic novel view synthesis methods including <a href="https://caoang327.github.io/HexPlane/">HexPlane</a>, 
-        <a href="https://hypernerf.github.io/">HyperNeRF</a> as well as the existing deblurring novel 
-        view synthesis methods <a href="https://dogyoonlee.github.io/dpnerf/">DP-NeRF</a> and <a href="https://wangpeng000.github.io/BAD-NeRF/">BAD-NeRF</a>. 
-        All methods are optimized using the newly synthesized Blurry iPhone Dataset. 
-        For the existing deblurring novel view synthesis methods, <a href="https://dogyoonlee.github.io/dpnerf/">DP-NeRF</a> and <a href="https://wangpeng000.github.io/BAD-NeRF/">BAD-NeRF</a>, which are originally designed solely for static novel view synthesis, 
-        we incorporate time instances as additional inputs to make them synthesize dynamic components for a fair comparison. 
-      </p>
-    </div>
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content">
-            <img src="./static/images/psnr_ssim.png" alt="Graph for quality evaluation">
-          </div>
-        </div>
-      </div>
-      
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content">
-            <img src="./static/images/lpips_tof.png" alt="Graph for perfomance evaluation">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="content has-text-justified">
-      <p>
-        We utilize the co-visibility masked image metrics, including mPSNR, mSSIM, and mLPIPS, 
-        following the approach introduced by <a href="https://hangg7.com/dycheck/">Dycheck</a>. These metrics mask out the regions of the test video frames which are not observed by the training camera. 
-        We further utilize <a href="https://arxiv.org/abs/1811.09393">tOF</a> to measure the temporal consistency of reconstructed video frames.
-      </p>
-      <image src="./static/images/figure1_v7.png" class="img-responsive" alt="DDNeRF_Architecture_v21"></image>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-widescreen">
-    <h2 class="title is-3">Robustness of DyBluRF for Dynamic Novel View Synthesis</h2>
-
-    <div class="content has-text-justified">
-      <p>
-        Our DyBluRF trained with the Blurry iPhone Dataset ('Trained w/
-        Blurry') with inaccurate camera poses even shows comparable
-        results with the SOTA methods trained with the original iPhone
-        Dataset ('Trained w/ Sharp') with accurate camera poses.
-      </p>
-    </div>
-
-    <div class="row" style="display: flex; margin-bottom: 2%;">
-      <div class="col-md-4 " style="width: 50%; margin-right: 5%;">
-        <image src="./static/images/table2.png" class="img-responsive" alt="DDNeRF_Architecture_v21"><br>
-          <div class="content has-text-justified">
-            <p style="margin:0;display:inline;"> <b>Dynamic novel view synthesis evaluation.</b> </p>
-            <p style="color:red; margin:0;display:inline;"><b>Red</b></p> and <p style="color:blue; margin:0;display:inline;"><u>blue</u></p> denote the best and second best performances, respectively.
-            
-          </div>
-      </div>
-      <div class="col-md-4" style="width: 42%;">
-          <video class="video" id="viz_input_input" loop playsinline autoplay muted controls src="./static/videos/DyBluRF_4_apple_table2.mp4" ></video>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
+<section class="section hero is-light">
   <div class="container is-widescreen">
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Visual Deblurring Effect</h2>
+<!--        <h2 class="title is-3">Qualitative Results</h2>-->
         <!-- Deblurring. -->
         <h3 class="title is-4">
-          
+
         </h3>
-        <div class="content has-text-justified">
-          <p>
-            Here, we compare the reconstructed images of our DyBluRF with the original blurry input images. By using the Motion Decomposition-based Deblurring process, DyBluRF can effectively remove the blurriness due to camera shake and object motion.
-          </p>
+<!--        <div class="content has-text-justified">-->
+<!--          <p>-->
+<!--            Here, we compare the reconstructed depth maps of Monodepth2 and Ours-Monodepth2.-->
+<!--          </p>-->
+<!--        </div>-->
+        <div class="row" style="display: flex; margin-bottom: 2%;">
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_input_image_1" loop playsinline autoplay muted controls src="./static/videos/demo_video_color.mp4" ></video>
+            <span style="font-weight:bold;">Input Image</span>
+          </div>
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_monodepth2" loop playsinline autoplay muted controls src="./static/videos/demo_video_monodepth2.mp4"></video>
+            <span style="font-weight:bold;">Monodepth2</span>
+          </div>
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_ours_monodepth2" loop playsinline autoplay muted controls src="./static/videos/demo_video_ours_monodepth2.mp4"></video>
+            <span style="font-weight:bold;">Ours-Monodepth2</span>
+          </div>
         </div>
         <div class="row" style="display: flex; margin-bottom: 2%;">
-          <div class="col-md-4" style="width: 33%;">
-              <video class="video" id="viz_input_input" loop playsinline autoplay muted controls src="./static/videos/viz_input_input.mp4" ></video>
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_input_image_2" loop playsinline autoplay muted controls src="./static/videos/demo_video_hr_depth_color.mp4" ></video>
+            <span style="font-weight:bold;">Input Image</span>
           </div>
-          <div class="col-md-4 " style="width: 33%;">
-              <video class="video" id="viz_input_dyblurf" loop playsinline autoplay muted controls src="./static/videos/viz_input_dyblurf.mp4"></video>
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_hrdepth" loop playsinline autoplay muted controls src="./static/videos/demo_video_hr_depth.mp4"></video>
+            <span style="font-weight:bold;">HR-Depth</span>
           </div>
-          <div class="col-md-4" style="width: 33%;">
-              <video class="video" id="viz_input" loop playsinline autoplay muted src="./static/videos/viz_input.mp4" onplay="resizeAndPlay(this)"></video>
-              <canvas height=0 class="videoMerge" id="viz_inputMerge"></canvas>
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_ours_hrdepth" loop playsinline autoplay muted controls src="./static/videos/demo_video_ours_hr_depth.mp4"></video>
+            <span style="font-weight:bold;">Ours-HR-Depth</span>
+          </div>
+        </div>
+        <div class="row" style="display: flex; margin-bottom: 2%;">
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_input_image_3" loop playsinline autoplay muted controls src="./static/videos/demo_video_cadepth_color.mp4" ></video>
+            <span style="font-weight:bold;">Input Image</span>
+          </div>
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_cadepth" loop playsinline autoplay muted controls src="./static/videos/demo_video_cadepth.mp4"></video>
+            <span style="font-weight:bold;">CADepth</span>
+          </div>
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_ours_cadepth" loop playsinline autoplay muted controls src="./static/videos/demo_video_ours_cadepth.mp4"></video>
+            <span style="font-weight:bold;">Ours-CADepth</span>
+          </div>
+        </div>
+        <div class="row" style="display: flex; margin-bottom: 2%;">
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_input_image_4" loop playsinline autoplay muted controls src="./static/videos/demo_video_monovit_color.mp4" ></video>
+            <span style="font-weight:bold;">Input Image</span>
+          </div>
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_monovit" loop playsinline autoplay muted controls src="./static/videos/demo_video_monovit.mp4"></video>
+            <span style="font-weight:bold;">MonoViT</span>
+          </div>
+          <div class="col-md-4 has-text-centered" style="width: 33%;">
+              <video class="video" id="viz_ours_monovit" loop playsinline autoplay muted controls src="./static/videos/demo_video_ours_monovit.mp4"></video>
+            <span style="font-weight:bold;">Ours-MonoViT</span>
           </div>
         </div>
 
@@ -417,24 +233,128 @@ bulmaCarousel.attach('#results-carousel', {
     <!--/ Animation. -->
 
 
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Acknowledgement</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            Our blurry dataset and implementation are built on top of <a href="https://hangg7.com/dycheck/">Dycheck</a>'s dataset and codebase.
-            <a href="https://hangg7.com/dycheck/">Dycheck</a> consists of casual captures with strict monocular constraint for dynamic view synthesis.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
-
   </div>
 </section>
 
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          Self-supervised monocular depth estimation (DE) is an approach to learning depth without costly depth ground truths.
+          However, it often struggles with moving objects that violate the static scene assumption during training.
+          To address this issue, we introduce a coarse-to-fine training strategy leveraging the ground contacting prior based on the observation that most moving objects in outdoor scenes contact the ground.
+          In the coarse training stage, we exclude the objects in dynamic classes from the reprojection loss calculation to avoid inaccurate depth learning.
+          To provide precise supervision on the depth of the objects, we present a novel Ground-contacting-prior Disparity Smoothness Loss (GDS-Loss) that encourages a DE network to align the depth of the objects with their ground-contacting points.
+          Subsequently, in the fine training stage, we refine the DE network to learn the detailed depth of the objects from the reprojection loss, while ensuring accurate DE on the moving object regions by employing our regularization loss with a cost-volume-based weighting factor.
+          Our overall coarse-to-fine training strategy can easily be integrated with existing DE methods without any modifications, significantly enhancing DE performance on challenging Cityscapes and KITTI datasets, especially in the moving object regions.
+
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+<!--    <div class="columns is-centered has-text-centered">-->
+<!--      <div class="column is-full">-->
+<!--        <h2 class="title is-3">Video</h2>-->
+<!--        <div class="publication-video">-->
+<!--          <iframe src=""-->
+<!--                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-widescreen">
+    <h2 class="title is-3">Method Overview</h2>
+
+    <div class="content has-text-justified">
+      <p>
+        We propose a novel coarse-to-fine training strategy to effectively handle moving object problems in self-supervised learning of monocular depth estimation.
+        </br>
+        In the coarse training stage, we utilize the ground contacting prior as a self-supervision for depth estimation on dynamic objects, presenting Ground-contacting-prior Disparity Smoonthess Loss (GDS-Loss).
+        The ground contacting prior is based on an observation that most objects classified as dynamic in outdoor scenes, such as cars, bicycles, or pedestrians, invariably tend to make contact with the ground, thereby sharing similar depth at their ground contact points.
+        </br>
+        In the fine training stage, we further refine the depth estimation network to capture detailed depth of dynamic objects.
+        We introduce a regularization loss with a cost-volume-based weighting factor to avoid inaccurate learning from the reproejction loss on the moving object regions.
+      </p>
+    </div>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content is-four-fifths">
+            <img src="./static/images/main_architecture.png" alt="Graph for quality evaluation">
+          </div>
+        </div>
+      </div>
+    </div>
+<!--    <div class="content has-text-justified">-->
+<!--      <p>-->
+<!--        We utilize the co-visibility masked image metrics, including mPSNR, mSSIM, and mLPIPS, -->
+<!--        following the approach introduced by <a href="https://hangg7.com/dycheck/">Dycheck</a>. These metrics mask out the regions of the test video frames which are not observed by the training camera. -->
+<!--        We further utilize <a href="https://arxiv.org/abs/1811.09393">tOF</a> to measure the temporal consistency of reconstructed video frames.-->
+<!--      </p>-->
+<!--    </div>-->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-widescreen">
+    <h2 class="title is-3">SOTA Comparison</h2>
+
+    <div class="content has-text-justified">
+      <p>
+        Our coarse-to-fine training strategy significantly improves the depth estimation performance of existing methods including Monodepth2 [ICCV 2019], HR-Depth [AAAI 2021], CADepth [3DV 2021] and MonoViT [3DV 2022].
+        Each model trained with our training strategy is denoted as Ours-Monodepth2, Ours-HR-Depth, Ours-CADepth, Ours-MonoViT.
+        Our training strategy is easily integrated into those methods and enhances depth estimation performance on both Cityscapes and KITTI datasets.
+        Moreover, Ours-MonoViT achieves state-of-the-art depth estimation performance on both datasets.
+      </p>
+    </div>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content is-two-thirds">
+            <img src="./static/images/main_result.png" alt="Graph for quality evaluation">
+          </div>
+        </div>
+      </div>
+    </div>
+<!--    <div class="content has-text-justified">-->
+<!--      <p>-->
+<!--        We utilize the co-visibility masked image metrics, including mPSNR, mSSIM, and mLPIPS, -->
+<!--        following the approach introduced by <a href="https://hangg7.com/dycheck/">Dycheck</a>. These metrics mask out the regions of the test video frames which are not observed by the training camera. -->
+<!--        We further utilize <a href="https://arxiv.org/abs/1811.09393">tOF</a> to measure the temporal consistency of reconstructed video frames.-->
+<!--      </p>-->
+<!--    </div>-->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-widescreen">
+    <h2 class="title is-3">3D Point Cloud Reconstruction</h2>
+
+    <div class="content has-text-justified">
+
+    </div>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content is-four-fifths">
+            <img src="./static/images/point_cloud.png" alt="Graph for quality evaluation">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- <section class="section" id="BibTeX">
   <div class="container is-widescreen content">
